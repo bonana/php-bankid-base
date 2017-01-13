@@ -19,3 +19,5 @@ $bankid_client->collect( 'order_ref_given' );
 ## Contributors
 
 Alexander Karlsson <alexander@livetime.nu>
+
+Karl Berggren info[a]jjabba.com
