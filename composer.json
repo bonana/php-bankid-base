@@ -1,0 +1,33 @@
+{
+    "name": "jjabba/php-bankid-base",
+    "description": "A basic BankID integration for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Karlsson",
+            "email": "alexander@livetime.nu",
+            "role": "Developer"
+        },
+        {
+            "name": "Karl Berggren",
+            "email": "kalle@jjabba.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : "^5.3 || ^7.0",
+        "ext-soap" : "*",
+        "lib-openssl" : "*"
+    },
+    "autoload": {
+        "psr-4": { "BankID\\": "classes/" }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jjabba/php-bankid-base"
+        }
+    ]
+}
